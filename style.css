@@ -40,7 +40,7 @@
 .tabs-container {
     min-height: 200px;
     height: 100vh;
-    max-height: 200px;
+    max-height: 350px;
 }
 
 .tab {
@@ -102,4 +102,11 @@
     background-color: #D71879;
     color: #fff;
     border-color: #D71879;
+}
+
+.content-box {
+    width: 100%;
+    padding: 50px;
+    background-color: #fef3ed;
+    color: #7c6e67;
 }
