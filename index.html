@@ -16,17 +16,26 @@
         crossorigin="anonymous"></script>
 
     <!-- Navigation -->
-    <nav class="nav justify-content-center">
-        <a class="nav-link active" aria-current="page" href="#">Active</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4"><img class="logo" src="/assets/Logo-thumnail-oct-150x150.png" alt="CareShare Ltd."></div>
+            <div class="col-4">
+                <nav class="nav justify-content-center">
+                    <a class="nav-link active" aria-current="page" href="#">Active</a>
+                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </nav>
+            </div>
+        </div>
+        <div class="col-4"></div>
+    </div>
+
 
     <!-- hero -->
     <div class="container hero-container">
         <div class="row" style="height: 100%;">
-            <div class="col-sm-8">
+            <div class="col-sm-8 hero-branding">
 
             </div>
             <div class="col-sm-4 hero-logo">
@@ -40,23 +49,39 @@
         <div class="row gx-5" style="height: 100%;">
             <div class="d-none d-lg-block col-lg-3">
                 <div class="tab">
-                    <div class="hexagon"></div>
+                    <div class="hexagon" id="hex-four">
+                        <div class="hex-text">
+                            <p><button type="button" class="btn btn-light">Transforming care</button></p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="d-none d-lg-block col-lg-3">
                 <div class="tab">
-                    <div class="hexagon"></div>
+                    <div class="hexagon" id="hex-two">
+                        <div class="hex-text">
+                            <p><button type="button" class="btn btn-light">Solutions <br> for all settings</button></p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="d-none d-lg-block col-lg-3">
                 <div class="tab">
-                    <div class="hexagon"></div>
+                    <div class="hexagon" id="hex-three">
+                        <div class="hex-text">
+                            <p><button type="button" class="btn btn-light">Free Trial</button></p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="d-none d-lg-block col-lg-3">
-               <div class="tab">
-                <div class="hexagon"></div>
-               </div>
+                <div class="tab">
+                    <div class="hexagon" id="hex-one">
+                        <div class="hex-text">
+                            <p><button type="button" class="btn btn-light">Get in iouch</button></p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
